@@ -1,0 +1,11 @@
+create table user001
+  (
+  uname varchar2(20),
+  pword varchar2(20),
+  fname varchar2(20),
+  lname varchar2(20),
+  city varchar2(20),
+  mid varchar2(40),
+  phno number(15),
+  primary key(uname)
+  );

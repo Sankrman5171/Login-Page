@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+</head>
+<link rel="stylesheet" type="text/css" href="login.css">
+<body>
+<script src="login.js"></script>
+	<div class="login-container">
+    <h2>Login</h2>
+    <form action="log" method="post" id="loginForm">
+        <input type="text" name="uname" id="uname" placeholder="Username" required="required">
+        <input type="password" name="pword" id="pword" placeholder="Password" required="required">
+        <button type="submit" onclick="login()">Login</button>
+        <a href="register.html" onclick="newUser()">New User?</a>   
+     </form>
+</div>
+
+
+</body>
+</html>
